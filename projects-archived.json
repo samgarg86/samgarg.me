@@ -1,0 +1,21 @@
+[{
+    "link": "http://maximindia.in/",
+    "type": "web",
+    "title": "Maxim India",
+    "image": "img/portfolios/maxim.png",
+    "desciption": "Website for Maxim Magazine"
+},
+{
+"link": "img/portfolios/gamex.png",
+"type": "web",
+"title": "Gamexs",
+"image": "img/portfolios/gamex.png",
+"desciption": "Website to buy Xbox Games"
+},
+{
+"link": "http://minisites.dev.ninemsn.com.au/seek/index.html#competition",
+"type": "ad",
+"title": "Seek Job Site Ad",
+"image": "img/portfolios/seek.png",
+"desciption": "Ad Campaign for Seek Austrlia"
+}]

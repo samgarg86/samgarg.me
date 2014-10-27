@@ -1,0 +1,58 @@
+<!doctype html>
+<html>
+<head>
+    <title>Sam's Random Cool Grid Generator</title>
+    <style type="text/css">
+        html, body {
+            padding: 0;
+            margin: 0;
+			height:100%;
+        }
+        div#container {
+            height:100%;
+            min-height:100%;
+
+        }
+        div#grid {
+            height:100%;
+            min-height:100%;
+        }
+    </style>
+    <script type="text/javascript" src="gridGenerator.js"></script>
+    <script type="text/javascript">    
+		window.onload = function () {
+		    var g = new gridGenerator("grid");
+		    document.getElementById("btnGenerate").onclick = function () {
+		        var rows = document.getElementById("rows").value;
+		        var rowsInt = parseInt(rows);
+		        var columns = document.getElementById("columns").value;
+		        var colsInt = parseInt(columns);
+		        var timeout = document.getElementById("timeout").value;
+		        var timeoutInt = parseInt(timeout);
+
+		        if (isNaN(rowsInt) || isNaN(colsInt) || isNaN(timeoutInt) || rowsInt <= 0 || colsInt <= 0 || timeoutInt <= 0) {
+		            alert("Please enter valid numeral values for Rows, Columns and Timeout(Seconds)");
+		        } else {
+		            g.generate(rowsInt, colsInt);
+		            g.setRefreshColorsTimer(timeoutInt);
+		        }
+		    }
+		};
+    </script>	
+</head>
+<body>
+    <div id="container">
+        <div id="form">
+            Rows:
+            <input type="text" id="rows" />
+            Columns:
+            <input type="text" id="columns" />
+            Timeout(seconds):
+            <input type="text" id="timeout" />
+            <input type="button" id="btnGenerate" value="Generate Grid" />
+        </div>
+        <div id="grid">
+        </div>
+    </div>	
+</body>
+</html>

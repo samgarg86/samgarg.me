@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=0"/>
+	<link rel="stylesheet" type="text/css" href="css/reset.css" />
+	<link rel="stylesheet" type="text/css" href="css/style.css" />
+	<link rel="stylesheet" type="text/css" href="css/toggle-switch.css" />
+	<link rel="stylesheet" href="http://code.jquery.com/ui/1.10.2/themes/smoothness/jquery-ui.css" />
+</head>
+<body>
+	<div class="switch switch-three candy mode">
+		<input id="driving" name="mode" type="radio" value="DRIVING" checked>
+		<label for="driving" onclick="">Driving</label>
+
+		<input id="walking" name="mode" type="radio" value="WALKING">	
+		<label for="walking" onclick="">Walking</label>
+
+		<input id="cycle" name="mode" type="radio" value="BICYCLING">	
+		<label for="cycle" onclick="">Cycle</label>
+		
+		<span class="slide-button"></span>
+	</div>
+
+	<div class="search">
+<!-- 		<input type="search" results="5" id="searchAddress" placeholder="Destination Address..."></input>	 -->
+		<input type="text" id="txtAddress" placeholder="Destination Address..."></input>
+		<a href="#" id="btnSubmit" class="button">
+			<img src="http://www.clker.com/cliparts/n/C/y/X/u/K/search-icon-th.png" alt="search">
+		</a>
+	</div>
+    <div class="distance">
+		<span id="txtDistance"></span>
+	</div>
+	<div class="map" id="map"></div>
+	<div class="modal"></div>
+</body>
+<script type="text/javascript" src="http://code.jquery.com/jquery-1.9.1.min.js"></script>
+<script type="text/javascript" src="http://code.jquery.com/ui/1.10.2/jquery-ui.js"></script>
+<script src="http://maps.google.com/maps/api/js?sensor=false"></script>
+
+<script type="text/javascript" src="js/geo.js"></script>
+
+<script type="text/javascript" src="js/search.js"></script>
+<script type="text/javascript" src="js/index.js"></script>
+</html>
