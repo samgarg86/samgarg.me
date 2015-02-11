@@ -11,6 +11,7 @@
     }
     #menu {
         height: 0 !important;
+        display: none !important;
     }
 
     .page-break	{ display: block; page-break-before: always; }

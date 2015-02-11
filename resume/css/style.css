@@ -108,7 +108,7 @@ a img {
 }
 body {
     font-family: Georgia;
-    font-size: 10px
+    font-size: 15px
 }
 a {
     color: #006699
@@ -1363,6 +1363,7 @@ a {
     line-height: 30px;  
     padding: 10px 1px 3px;
     margin: 0 auto 30px
+;text-align: center;
 }
 #view #menu .menu-edit {
     background: url('/images/../images/icons.png?1344924637') 5px -287px transparent no-repeat

@@ -70,6 +70,20 @@ background-size: 24px 24px;
 width: 24px;
 height: 24px;
 }
+#socialbuttons a.resumebutton {
+    display: block;
+    width: 106px;
+    height: 19px;
+    padding: 5px 0px 0px 0px;
+    color: #075794;
+    background-color: white;
+    text-align: center;
+    text-decoration: none;
+    font-size: 10px;
+    font-weight: bold;
+    border-radius: 2px;
+    margin-top: 6px;
+}
 
 
 
@@ -220,6 +234,11 @@ height: 24px;
 	}
 	
 }
+
+.resume a {
+    text-decoration: none;
+}
+
 
 /* #Clearing */
 
