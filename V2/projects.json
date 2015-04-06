@@ -1,0 +1,84 @@
+[{
+    "link": "http://scotch-soda.nl/",
+    "type": "web",
+    "title": "Scotch & Soda Homepage",
+    "image": "img/portfolio/scotch.png",
+    "desciption": "Responsive Website for Scotch-Soda"
+},
+{
+    "link": "http://scs.co.uk/",
+    "type": "ad",
+    "title": "SCS - Midnight Madness",
+    "image": "img/portfolio/scs.png",
+    "desciption": "24 HOUR SALE promo for SCS"
+},
+{
+    "link": "http://lekkertickets.myshopify.com/",
+    "type": "web",
+    "title": "Lekkertickets",
+    "image": "img/portfolio/lekkertickets.png",
+    "desciption": "Shopify cart for ADE Tickets"
+},
+{
+	"link": "http://m.funda.nl/",
+	"type": "mobile",
+	"title": "Funda Mobiel",
+	"image": "img/portfolio/fundamobiel.png",
+	"desciption": "Mobile Website for Funda"
+},
+{
+	"link": "http://cloud55.com.au",
+	"type": "web",
+	"title": "Cloud 55",
+	"image": "img/portfolio/cloud55.png",
+	"desciption": "Responsive website for Cloud55"
+},
+{
+	"link": "http://news.ninemsn.com.au/",
+	"type": "web",
+	"title": "Ninemsn News",
+	"image": "img/portfolio/ninemsnnews.png",
+	"desciption": "Leading News Portal in Australia"
+},
+{
+	"link": "http://minisites.dev.ninemsn.com.au/mitre10/index.html#home",
+	"type": "ad",
+	"title": "Mitre 10",
+	"image": "img/portfolio/mitre10.png",
+	"desciption": "Ad Campaign for Mitre10 Australia"
+},
+{
+	"link": "http://gabo.ninemsn.com.au",
+	"type": "web",
+	"title": "The Great Australian Bakeoff",
+	"image": "img/portfolio/gabo.png",
+	"desciption": "Website for a TV show in Australia"
+},
+{
+	"link": "http://ecoffeecard.com.au/",
+	"type": "mobile",
+	"title": "eCoffeeCard",
+	"image": "img/portfolio/ecoffeecard.png",
+	"desciption": "Mobile app in Australia"
+},
+{
+	"link": "http://samgarg.me/grid/",
+	"type": "code",
+	"title": "Grid Generator",
+	"image": "img/portfolio/grid.png",
+	"desciption": "Random grid generator using javascript"
+},
+{
+	"link": "http://samgarg.me/funda/",
+	"type": "code",
+	"title": "Top Makelaars",
+	"image": "img/portfolio/topmakelaar.png",
+	"desciption": "App that shows top makelaars in Amstelveen"
+},
+{
+	"link": "http://samgarg.me/distance/",
+	"type": "code",
+	"title": "Distance Calculator",
+	"image": "img/portfolio/distance.png",
+	"desciption": "Web app to show distance and route to anywhere"
+}]
