@@ -2,83 +2,109 @@
     "link": "http://scotch-soda.nl/",
     "type": "web",
     "title": "Scotch & Soda Homepage",
-    "image": "img/portfolio/scotch.png",
-    "desciption": "Responsive Website for Scotch-Soda"
+    "thumb": "img/portfolio/scotch-thumb.png",
+  	"image": "img/portfolio/scotch.png",
+    "description": "I built a responsive homepage for Scotch-Soda using a 12 column grid system.",
+    "client": "Scotch & Soda",
+  	"date": "Aug 2014"
 },
 {
     "link": "http://scs.co.uk/",
     "type": "ad",
     "title": "SCS - Midnight Madness",
+  	"thumb": "img/portfolio/scs-thumb.png",
     "image": "img/portfolio/scs.png",
-    "desciption": "24 HOUR SALE promo for SCS"
+    "description": "24 hour promotional sale for SCS (Sofa Carpet Specialists - UK). They received 4 times the amount of orders within 24 hours.",
+    "client": "Sofa & Carpet Specialists UK",
+  	"date": "Nov 2014"
 },
 {
-    "link": "http://lekkertickets.myshopify.com/",
+    "link": "#",
     "type": "web",
-    "title": "Lekkertickets",
+    "title": "Lekkertickets - ADE tickets online shop",
+  	"thumb": "img/portfolio/lekkertickets.png",
     "image": "img/portfolio/lekkertickets.png",
-    "desciption": "Shopify cart for ADE Tickets"
+    "description": "I built a shopify cart for Amsterdam Dance Event (ADE) Tickets. This was a personal project, and I built myself this end to end. Made about EUR 1500 worth of sales in 1 week.",
+  	"client": "Lekkertickets",
+  	"date": "Oct 2014"
 },
 {
 	"link": "http://m.funda.nl/",
 	"type": "mobile",
 	"title": "Funda Mobiel",
+  	"thumb": "img/portfolio/fundamobiel-thumb.png",
 	"image": "img/portfolio/fundamobiel.png",
-	"desciption": "Mobile Website for Funda"
+	"description": "I worked as part of the mobile team at Funda, and made some improvements to the mobile website",
+  	"client": "Funda",
+  	"date": "Mar-Jun 2014"
 },
 {
 	"link": "http://cloud55.com.au",
 	"type": "web",
-	"title": "Cloud 55",
+	"title": "Wordpress Website for Cloud 55",
+  	"thumb": "img/portfolio/cloud55.png",
 	"image": "img/portfolio/cloud55.png",
-	"desciption": "Responsive website for Cloud55"
+	"description": "A responsive wordpress website for Cloud55 for a boutique IT consulting company in Sydney, Australia",
+  	"client": "Cloud 55",
+  	"date": "Jun 2011"
 },
 {
 	"link": "http://news.ninemsn.com.au/",
 	"type": "web",
-	"title": "Ninemsn News",
+	"title": "Ninemsn News - Leading News Portal in Australia",
+  	"thumb": "img/portfolio/ninemsnnews.png",
 	"image": "img/portfolio/ninemsnnews.png",
-	"desciption": "Leading News Portal in Australia"
+	"description": "I worked as part of the agile IT team at Ninemsn, and helped them build a brand new Sitecore website. This was the leading News portal in Australia, with 6 million hits on the 1st day of launch, and were handled successfully without issues. All development was 100% test-driven, and we used pair-programming techniques. Fun project.",
+    "client": "Ninemsn Australia",
+    "date": "Mar-Jun 2012"
 },
 {
 	"link": "http://minisites.dev.ninemsn.com.au/mitre10/index.html#home",
 	"type": "ad",
 	"title": "Mitre 10",
+  	"thumb": "img/portfolio/mitre10.png",
 	"image": "img/portfolio/mitre10.png",
-	"desciption": "Ad Campaign for Mitre10 Australia"
-},
-{
-	"link": "http://gabo.ninemsn.com.au",
-	"type": "web",
-	"title": "The Great Australian Bakeoff",
-	"image": "img/portfolio/gabo.png",
-	"desciption": "Website for a TV show in Australia"
+	"description": "We built an online competition for Mitre10 Australia to drive traffic to their website.",
+    "client": "Ninemsn - Mitre10",
+  	"date": "Apr 2012"
 },
 {
 	"link": "http://ecoffeecard.com.au/",
 	"type": "mobile",
-	"title": "eCoffeeCard",
+	"title": "eCoffeeCard - Mobile app in Australia",
+  	"thumb": "img/portfolio/ecoffeecard-thumb.png",
 	"image": "img/portfolio/ecoffeecard.png",
-	"desciption": "Mobile app in Australia"
+	"description": "Australia has a strong cafe culture, with 1000's of small cafes feeding the country's 20 million people with their daily caffeine needs. I built a blackberry app for eCoffeeCard using phonegap, so it was primarily built using javascript/CSS/Html",
+  "client": "eCoffeeCard",
+  "date": "Aug 2011"
 },
 {
-	"link": "http://samgarg.me/grid/",
-	"type": "code",
-	"title": "Grid Generator",
-	"image": "img/portfolio/grid.png",
-	"desciption": "Random grid generator using javascript"
+  "link": "http://samgarg.me/grid/",
+  "type": "code",
+  "title": "Grid Generator",
+  "thumb": "img/portfolio/grid.png",
+  "image": "img/portfolio/grid.png",
+  "description": "Random grid generator using javascript. Because why not!",
+  "client": "Myself",
+  "date": "Jan 2012"
 },
 {
-	"link": "http://samgarg.me/funda/",
-	"type": "code",
-	"title": "Top Makelaars",
-	"image": "img/portfolio/topmakelaar.png",
-	"desciption": "App that shows top makelaars in Amstelveen"
+  "link": "http://samgarg.me/funda/",
+  "type": "code",
+  "title": "Top Makelaars",
+  "thumb": "img/portfolio/topmakelaar.png",
+  "image": "img/portfolio/topmakelaar.png",
+  "description": "App that shows top makelaars in Amstelveen. Because why not!",
+  "client": "Myself",
+  "date": "May 2013"
 },
 {
-	"link": "http://samgarg.me/distance/",
-	"type": "code",
-	"title": "Distance Calculator",
-	"image": "img/portfolio/distance.png",
-	"desciption": "Web app to show distance and route to anywhere"
+  "link": "http://samgarg.me/distance/",
+  "type": "code",
+  "title": "Distance Calculator",
+  "thumb": "img/portfolio/distance.png",
+  "image": "img/portfolio/distance.png",
+  "description": "Web app to show distance and route to anywhere. Because why not!",
+  "client": "Myself",
+  "date": "Feb 2012"
 }]
