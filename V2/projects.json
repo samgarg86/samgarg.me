@@ -19,6 +19,16 @@
   	"date": "Nov 2014"
 },
 {
+    "link": "http://kleenbeats.com/wordpress",
+    "type": "web",
+    "title": "Kleenbeats - One page wordpress website",
+    "thumb": "img/portfolio/kleenbeats-thumb.png",
+    "image": "img/portfolio/kleenbeats.png",
+    "description": "A one page website for an Australian music production company.",
+    "client": "Kleenbeats - Australia",
+    "date": "May 2015"
+},
+{
     "link": "#",
     "type": "web",
     "title": "Lekkertickets - ADE tickets online shop",
