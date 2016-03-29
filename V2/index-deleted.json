@@ -1,0 +1,31 @@
+,
+{
+"link": "http://samgarg.me/grid/",
+"type": "code",
+"title": "Grid Generator",
+"thumb": "img/portfolio/grid.png",
+"image": "img/portfolio/grid.png",
+"description": "Random grid generator using javascript. Because why not!",
+"client": "Myself",
+"date": "Jan 2012"
+},
+{
+"link": "http://samgarg.me/funda/",
+"type": "code",
+"title": "Top Makelaars",
+"thumb": "img/portfolio/topmakelaar.png",
+"image": "img/portfolio/topmakelaar.png",
+"description": "App that shows top makelaars in Amstelveen. Because why not!",
+"client": "Myself",
+"date": "May 2013"
+},
+{
+"link": "http://samgarg.me/distance/",
+"type": "code",
+"title": "Distance Calculator",
+"thumb": "img/portfolio/distance.png",
+"image": "img/portfolio/distance.png",
+"description": "Web app to show distance and route to anywhere. Because why not!",
+"client": "Myself",
+"date": "Feb 2012"
+}

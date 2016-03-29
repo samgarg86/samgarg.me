@@ -128,7 +128,7 @@
             <div class="row">
                 <div class="col-md-4">
                     <p>
-                        I'm a Web/Mobile Creative Front-End Developer from Sydney, Australia with 8 years of online
+                        I'm a Web/Mobile Creative Front-End Developer from Sydney, Australia with 10 years of online
                         experience. I have extensive experience in building small to large scale cross-device customer
                         facing websites. I specialise in Responsive and Fluid web solutions, allowing businesses to
                         create and maintain only 1 website for desktop, tablet and mobile. I love building User
@@ -296,14 +296,13 @@
         </a>
     </div>
 
-    <!-- My work popup divs -->
+    <!-- My work popup -->
     <section id="portfolio-popups" ng-controller="PortfolioController">
         <div class="portfolio-modal modal fade" id="portfolioModal{{$index}}" tabindex="-1" role="dialog" aria-hidden="true" ng-repeat="proj in projects">
             <div class="modal-content">
                 <div class="close-modal" data-dismiss="modal">
                     <div class="lr">
-                        <div class="rl">
-                        </div>
+                        <div class="rl"></div>
                     </div>
                 </div>
                 <div class="container">
@@ -312,22 +311,22 @@
                             <div class="modal-body">
                                 <h2>{{proj.title}}</h2>
                                 <hr class="star-primary">
-                                <img src="{{proj.image}}" class="img-responsive img-centered" alt="">
+                                <a href="{{proj.link}}" target="blank">
+                                    <img ng-if="proj.image" src="{{proj.image}}" class="img-responsive img-centered" alt="">
+                                    <img src="{{img}}" class="img-responsive img-centered" alt="" ng-repeat="img in proj.images">
+                                </a>
                                 <p>{{proj.description}}</p>
-                                <ul class="list-inline item-details">
-                                    <li>Client:
-                                        <strong><a href="{{proj.link}}" target="_blank">{{proj.client}}</a>
-                                        </strong>
-                                    </li>
-                                    <li>Date:
-                                        <strong><a href="{{proj.link}}" target="_blank">{{proj.date}}</a>
-                                        </strong>
-                                    </li>
-                                    <li>Service:
-                                        <strong><a href="{{proj.link}}" target="_blank">{{proj.type}}</a>
-                                        </strong>
-                                    </li>
-                                </ul>
+                                <!--<ul class="list-inline item-details">-->
+                                    <!--<li>Client:-->
+                                        <!--<strong>{{proj.client}}</strong>-->
+                                    <!--</li>-->
+                                    <!--<li>Date:-->
+                                        <!--<strong>{{proj.date}}</strong>-->
+                                    <!--</li>-->
+                                    <!--<li>Service:-->
+                                        <!--<strong>{{proj.type}}</strong>-->
+                                    <!--</li>-->
+                                <!--</ul>-->
                                 <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
                             </div>
                         </div>
