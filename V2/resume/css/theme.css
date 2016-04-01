@@ -239,7 +239,7 @@
 }
 #resume .summary {
     float: left;
-    margin: 20px 0 40px
+    margin: 20px 0;
 }
 #resume .contact {position: absolute;
     top: 54px;
