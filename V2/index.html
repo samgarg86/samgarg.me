@@ -32,7 +32,6 @@
 </head>
 
 <body id="page-top" class="index">
-
     <!-- Navigation -->
     <nav class="navbar navbar-default navbar-fixed-top">
         <div class="container">
@@ -54,13 +53,14 @@
                         <a href="#page-top"></a>
                     </li>
                     <li class="page-scroll">
-                        <a href="#portfolio">My Work</a>
+                        <a href="#about">About</a>
                     </li>
                     <li class="page-scroll">
-                        <a href="#about">About Me</a>
+                        <a href="#portfolio">Work</a>
                     </li>
+
                     <li class="page-scroll">
-                        <a href="#contact">Contact Me</a>
+                        <a href="#contact">Contact</a>
                     </li>
                     <li class="page-scroll">
                         <a href="http://samgarg.me/resume" target="_blank">Resume</a>
@@ -84,20 +84,95 @@
                     <div class="intro-text">
                         <span class="name">Sam Garg</span>
                         <hr class="star-light">
-                        <span class="skills">Freelance Front-End Developer & Photographer</span>
+                        <span class="skills">Freelance Front-End Web Developer & Photographer</span>
                     </div>
                 </div>
             </div>
         </div>
     </header>
 
-    <!-- Portfolio Grid Section -->
-    <section id="portfolio" ng-controller="PortfolioController">
+    <!-- About Section -->
+    <section id="about">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 text-center">
-                    <h2>My Work</h2>
+                    <h2>¡hola!</h2>
                     <hr class="star-primary">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-4">
+                    <p class="text-justify">
+                        Front-end developer from Sydney, Australia with experience building pixel-perfect consumer facing websites
+                        and e-commerce online shopfronts for over 8 years. Specialise in responsive web solutions, allowing businesses to create and maintain
+                        only one website for desktop, tablet and mobile. Have an eye for design,
+                        love working with designers and building great user-experiences together.
+                    </p>
+                    <p class="text-justify">
+                        Main focus on HTML5, CSS3, Javascript and jQuery, very passionate about the latest web technologies and writing great code.
+                    </p>
+
+                </div>
+                <div class="col-md-4">
+                    <p class="text-justify">
+                        After graduating as a Software Engineering from University of Technology, Sydney, worked for several companies
+                        in Sydney and Amsterdam doing front-end, back-end and
+                        e-commerce development and leading small teams/projects. Also built several websites freelancing remotely
+                        for many start-ups and small businesses around the world and helped create several successful
+                        web promotions and online ad campaigns.
+                    </p>
+                    <p class="text-justify">
+                        Right now busy playing with
+                        <a href="https://facebook.github.io/react/" target="_blank">React.js</a>
+                        and <a href="http://emberjs.com/" target="_blank">Ember.js</a> hoping to use them in future projects.
+                        <a href="#contact">Currently available for hire</a>.
+                    </p>
+                </div>
+                <div class="col-md-4">
+                    <p class="text-justify">
+                        Love travelling and photography. Love meeting people
+                        from different countries and backgrounds. Love going to islands and capturing nature, beaches and scenery.
+                        Lately been doing a lot of portraits, events and street photography.
+                        You can see some of my work <a href="https://www.flickr.com/photos/131305944@N02/sets/" target="_blank">here</a>.
+                    </p>
+                    <p class="text-justify">
+                        Lived in Sydney and Amsterdam and visited 50 countries around Asia, Europe and Latin America. Now found a new home in Latin America,
+                        working out of an apartment in Bogota - Colombia during the day and trying to get better at salsa and Spanish at night :)
+                    </p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="text-center brands">
+                    <a href="http://ninemsn.com.au" target="_blank"><img src="img/logos/msn.png" alt="MSN Australia" class="company-logo big"/></a>
+                    <a href="http://bestseller.com" target="_blank"><img src="img/logos/bestseller.svg" class="company-logo" alt="Bestseller"/></a>
+                    <a href="http://jackjones.com/" target="_blank"><img src="img/logos/jack-jones.jpg" class="company-logo" alt="Jack & Jones"/></a>
+                    <a href="http://www.veromoda.com/" target="_blank"><img src="img/logos/vero-moda.png" class="company-logo" alt="Vero Moda"/></a>
+                    <a href="http://www.only.com/" target="_blank"><img src="img/logos/only.svg" class="company-logo" alt="Only"/></a>
+                    <a href="http://www.digitaslbi.com"><img src="img/logos/digitaslbi.svg" alt="DigitasLbi (LostBoys)" class="company-logo big"/></a>
+                    <a href="http://scotch-soda.com" target="_blank"><img src="img/logos/scotch.png" class="company-logo" alt="Scotch Soda"/></a>
+                    <a href="http://www.scs.co.uk" target="_blank"><img src="img/logos/scs.png" class="company-logo" alt="ScS Sofas"/></a>
+                    <a href="http://www.vertu.com" target="_blank"><img src="img/logos/vertu.png" class="company-logo" alt="Vertu"/></a>
+                    <a href="http://www.funda.nl" target="_blank"><img src="img/logos/funda.svg" alt="Funda" class="company-logo big"/></a>
+                </div>
+                <br><br><br>
+                <div class="text-center">
+                    <a href="#portfolio" class="section-button invert">Recent Work</a>
+                </div>
+
+            </div>
+            <div class="row">
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Portfolio Grid Section -->
+    <section id="portfolio" class="success" ng-controller="PortfolioController">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2>Recent Work</h2>
+                    <hr class="star-light">
                 </div>
             </div>
 
@@ -116,76 +191,6 @@
         </div>
     </section>
 
-    <!-- About Section -->
-    <section class="success" id="about">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12 text-center">
-                    <h2>¡hola!</h2>
-                    <hr class="star-light">
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-md-4">
-                    <p>
-                        I'm a Web/Mobile Creative Front-End Developer from Sydney, Australia with 10 years of online
-                        experience. I have extensive experience in building small to large scale cross-device customer
-                        facing websites. I specialise in Responsive and Fluid web solutions, allowing businesses to
-                        create and maintain only 1 website for desktop, tablet and mobile. I love building User
-                        Interfaces with a focus on minimalistic design, and I worship that godly person who once
-                        upon a time, over the course of a few too many beers uttered the holy words 'less is more'!
-                        I have also created many successful Web Promotions and Online Ad Campaigns.
-                    </p>
-                    <p>
-                        I mainly focus on on HTML5, CSS3, Javascript and jQuery development.
-                    </p>
-                </div>
-                <div class="col-md-4">
-                    <p>
-                        In June 2013, I moved to Amsterdam, Netherlands and worked for several companies in Amsterdam
-                        including <a href="http://www.digitaslbi.com" target="_blank">DigitasLbi LostBoys</a>, one of
-                        the top Creative Agencies in Amsterdam, where I built
-                        several Responsive-Web E-Commerce solutions for clients including
-                        <a href="http://scotch-soda.com" target="_blank">Scotch & Soda</a>,
-                        <a href="http://www.scs.co.uk" target="_blank">ScS</a> and
-                        <a href="http://www.vertu.com" target="_blank">VERTU</a>.
-                        Prior to that I took on a job at <a href="http://www.funda.nl" target="_blank">Funda</a>, the
-                        leading residential rental website in the Netherlands. Before moving to Amsterdam, I spent 3
-                        years at  <a href="http://ninemsn.com.au" target="_blank">Ninemsn</a>, Sydney, a leading
-                        Online Media company in Australia, jointly owned by Microsoft and Channel 9. I worked in various
-                        teams in Ninemsn leading, developing, and supporting their entire suite of 80+ websites.
-                    </p>
-                </div>
-                <div class="col-md-4">
-                    <p>
-                        I have also been actively exploring my entrepreneurial side and co-founded a few startups
-                        including a travel video sharing website which was successfully launched in Australia in 2011.
-                    </p>
-                    <!--<p>-->
-                    <!--I also own a Sydney based company <a href="http://www.cloud55.com.au" target="_blank">Cloud55</a>,
-                    and we offer a variety of web-based solutions to clients around the world. Here's some projects
-                    we've done <a href="http://cloud55.com.au" target="_blank">cloud55.com.au</a>.-->
-                    <!--</p>-->
-                    <p>
-                        When I'm not coding, I'm either travelling or taking pictures, or both. In the last 4 years I've visited 20 countries
-                        across Asia and Europe. This has exposed me to a lot of new people and cultures, which is an
-                        asset in today's multi-cultural team environments. I like going to islands and capture
-                        nature, beaches and scenery. Lately I've been doing a lot of portraits, events and street photography.
-                        I love to shoot in 35mm! You can see some of my work on
-                        <a href="https://www.flickr.com/photos/131305944@N02/sets/" target="_blank">flickr</a>. Oh, I'm also
-                        trying to learn Spanish on the side, but I still suck at it :(
-                    </p>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-md-12 text-center">
-                    <br><br>
-                    <a href="#portfolio" class="section-button">My Work</a>
-                </div>
-            </div>
-        </div>
-    </section>
-
     <!-- Contact Section -->
     <section id="contact">
         <div class="container">
@@ -197,8 +202,6 @@
             </div>
             <div class="row">
                 <div class="col-lg-8 col-lg-offset-2">
-                    <!-- To configure the contact form email address, go to mail/contact_me.php and update the email address in the PHP file on line 19. -->
-                    <!-- The form should work on most web servers, but if the form is not working you may need to configure your web server differently. -->
                     <form name="sentMessage" id="contactForm" novalidate>
                         <div class="row control-group">
                             <div class="form-group col-xs-12 floating-label-form-group controls">
