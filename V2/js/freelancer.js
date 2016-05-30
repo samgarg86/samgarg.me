@@ -26,6 +26,20 @@ $(function() {
     });
 });
 
+// Read More - Read Less
+$(function() {
+    $('.collapse-text').click(function(e){
+        e.preventDefault();
+        $('.collapse-on-mobile').removeClass('hidden-xs');
+
+        $('.collapse-text').hide();
+
+        //var text = $('.collapse-text').text();
+        //$('.collapse-text').text(
+        //    text == "More about me.." ? "Less about me.." : "More about me..");
+    });
+});
+
 // Highlight the top nav as scrolling occurs
 $('body').scrollspy({
     target: '.navbar-fixed-top'

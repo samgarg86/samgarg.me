@@ -6,6 +6,7 @@
 
 body {
     overflow-x: hidden;
+    /*font-size: 19px;*/
 }
 
 p {
@@ -478,23 +479,28 @@ img {
 
 .section-button {
     color: #fff;
-    padding: 15px 60px;
-    border: 3px solid;
+    padding: 15px 0;
+    border: 3px solid #0064B0;
     border-radius: 5px;
     font-size: 20px;
     background: #0064B0;
     display: inline-block;
+    width: 100%;
+    text-align: center;
+    margin-top: 10px;
 }
 .section-button:hover {
     background: #fff;
     color: #0064B0;
-    border-color: #fff;
+    text-decoration: none;
+}
+.section-button:focus {
     text-decoration: none;
 }
 .section-button.invert {
     background: #fff;
-    color: #2c3e50;
-    border-color: #2c3e50;
+    color: #0064B0;
+    border-color: #0064B0;
 }
 .section-button.invert:hover {
     background: #0064B0;
@@ -523,13 +529,13 @@ img {
     margin: 20px 0 10px 0;
 }
 .company-logo {
-    background: white;
-    height: 25px;
+    background: transparent;
+    height: 16px;
     margin: 20px 20px 0 20px;
     opacity: 0.5;
 }
 .company-logo.big {
-    height: 32px;
+    height: 22px;
 }
 .company-logo:hover {
     opacity: 1;
@@ -537,8 +543,28 @@ img {
 .company-header.first {
     margin-top: 0;
 }
+.brands {
+    padding-bottom: 20px;
+    background: aliceblue;
+    margin-top: 40px;
+}
 .brands > a {
     display: inline-block;
+}
+#about {
+    padding-bottom: 0;
+}
+@media(min-width:768px) {
+    .section-button {
+        margin-top: 30px;
+    }
+    .company-logo {
+        height: 24px;
+    }
+    .company-logo.big {
+        height: 32px;
+    }
+
 }
 
 
