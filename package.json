@@ -1,0 +1,31 @@
+{
+  "name": "sam-gargs-personal-site",
+  "version": "1.0.0",
+  "description": "Sam Garg is a kick ass front-end dev",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/samgarg86/samgarg.me.git"
+  },
+  "keywords": [
+    "Sam",
+    "Garg",
+    "ReactJS",
+    "React",
+    "Bootstrap",
+    "SinglePage"
+  ],
+  "author": "Sam Garg",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/samgarg86/samgarg.me/issues"
+  },
+  "homepage": "https://github.com/samgarg86/samgarg.me#readme",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-sass": "^2.3.2"
+  }
+}
