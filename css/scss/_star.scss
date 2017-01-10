@@ -1,0 +1,69 @@
+hr {
+  &.star {
+    margin: 25px auto 30px;
+    padding: 0;
+    max-width: 250px;
+    border: 0;
+    border-top: solid 5px;
+    text-align: center;
+  }
+  &.star:after {
+    content: "\f005";
+    display: inline-block;
+    position: relative;
+    top: -.8em;
+    padding: 0 .25em;
+    font-family: FontAwesome;
+    font-size: 2em;
+  }
+
+  section.primary1 & {
+    &.star {
+      border-color: #fff;
+      &:after {
+        color: #fff;
+        background-color: $primary1;
+      }
+    }
+  }
+
+  header & {
+    &.star {
+      border-color: #fff;
+      &:after {
+        color: #fff;
+        background-color: transparent;
+      }
+    }
+  }
+
+  section.primary2 & {
+    &.star {
+      border-color: #fff;
+      &:after {
+        color: #fff;
+        background-color: $primary2;
+      }
+    }
+  }
+  section.primary3 & {
+    &.star {
+      border-color: #fff;
+      &:after {
+        color: #fff;
+        background-color: $primary3;
+      }
+    }
+  }
+
+  section.white &,
+  .portfolio-modal & {
+    &.star {
+      border-color: $primary2;
+      &:after {
+        color: $primary2;
+        background-color: white;
+      }
+    }
+  }
+}

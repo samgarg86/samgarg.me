@@ -15,12 +15,36 @@
         "title": "BESTSELLER.COM Brands",
         "thumb": "img/portfolio/bestseller-thumb.png",
         "images": [
-            "img/portfolio/only.png",
-            "img/portfolio/only-zoom.png"
+            {"src": "img/portfolio/only.png", "class": "portfolio-img"},
+            {"src": "img/portfolio/only-zoom.png", "class": "portfolio-img"}
         ],
         "description": "E-commerce web development for bestseller's 17 worldwide brands",
         "client": "Bestseller",
         "date": "2015"
+    },
+    {
+        "link": "http://votion.co",
+        "type": "web",
+        "title": "Votion Interactive Widgets",
+        "thumb": "img/portfolio/votion-thumb-1.jpeg",
+        "images": [
+            {"src": "img/portfolio/votion-matchup.jpeg", "class": "portfolio-img col-md-6"},
+            {"src": "img/portfolio/votion-stackup.jpeg", "class": "portfolio-img col-md-6"},
+            {"src": "img/portfolio/votion-home.jpeg", "class": "portfolio-img"}
+        ],
+        "description": "UI/UX direction and front-end web development for a silicon valley startup. Votion is an interactive content platform, a set of very engaging online widgets for businesses to easily setup interactive marketing campaigns. I gave their website a face-lift, and also helped re-design some of their widgets.",
+        "client": "Votion",
+        "date": "2016"
+    },
+    {
+        "link": "http://www.aalvink.nl",
+        "type": "web",
+        "title": "Aalvink Vleesspecialiteiten",
+        "thumb": "img/portfolio/aalvink-thumb.jpeg",
+        "image": "img/portfolio/aalvink-pdp.jpeg",
+        "description": "E-commerce online shopfront for a Dutch company selling meat online.",
+        "client": "Votion",
+        "date": "2016"
     },
     {
         "link": "http://kleenbeats.com",
@@ -30,19 +54,6 @@
         "image": "img/portfolio/kleenbeats.jpg",
         "description": "One page website for Kleenbeats, an Austrlian music production company (WIP)",
         "client": "Kleenbeats",
-        "date": "2015"
-    },
-    {
-        "link": "http://alessandro-iovino.com",
-        "type": "web",
-        "title": "Alessandro Iovino",
-        "thumb": "img/portfolio/alessandro-thumb.png",
-        "images": [
-            "img/portfolio/alessandro-2.png",
-            "img/portfolio/alessandro-1.png"
-        ],
-        "description": "Wordpress website for an Italian Photo Journalist",
-        "client": "Alessandro Iovino",
         "date": "2015"
     },
     {
@@ -84,15 +95,5 @@
         "description": "I worked as part of the mobile team at Funda, and made some improvements to the mobile website",
         "client": "Funda",
         "date": "Mar-Jun 2014"
-    },
-    {
-        "link": "#",
-        "type": "web",
-        "title": "Lekkertickets - ADE tickets online shop",
-        "thumb": "img/portfolio/lekkertickets.png",
-        "image": "img/portfolio/lekkertickets.png",
-        "description": "I built a shopify cart for Amsterdam Dance Event (ADE) Tickets. This was a personal project, and I built myself this end to end. Made about EUR 1500 worth of sales in 1 week.",
-        "client": "Lekkertickets",
-        "date": "Oct 2014"
     }
 ]

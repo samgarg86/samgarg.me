@@ -2,7 +2,7 @@ var gulp = require('gulp');
 var sass = require('gulp-sass');
 var autoprefixer = require('gulp-autoprefixer');
 
-var input = './scss/**/*.scss';
+var input = './css/scss/**/*.scss';
 var output = './css/';
 
 

@@ -1,0 +1,28 @@
+section {
+  padding: 100px 0;
+  h2 {
+    margin: 0;
+    font-size: 3em;
+  }
+  &.primary1 {
+    color: #fff;
+    background: $primary1;
+  }
+  &.primary2 {
+    color: #fff;
+    background: $primary2;
+  }
+  &.white {
+    color: $primary2;
+    background: #fff;
+  }
+}
+
+@media (max-width: 767px) {
+  section {
+    padding: 75px 0;
+    &.first {
+      padding-top: 75px;
+    }
+  }
+}

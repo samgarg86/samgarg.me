@@ -1,0 +1,13 @@
+{
+  "link": "http://alessandro-iovino.com",
+  "type": "web",
+  "title": "Alessandro Iovino",
+  "thumb": "img/portfolio/alessandro-thumb.png",
+  "images": [
+    "img/portfolio/alessandro-2.png",
+    "img/portfolio/alessandro-1.png"
+  ],
+  "description": "Wordpress website for an Italian Photo Journalist",
+  "client": "Alessandro Iovino",
+  "date": "2015"
+}

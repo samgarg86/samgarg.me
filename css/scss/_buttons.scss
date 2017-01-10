@@ -1,0 +1,48 @@
+
+.section-button {
+  color: #fff;
+  padding: 15px 0;
+  border: 2px solid $primary1;
+  font-size: 18px;
+  background: $primary1;
+  display: inline-block;
+  width: 100%;
+  text-align: center;
+  margin-top: 10px;
+  text-transform: uppercase;
+  &:hover,
+  &:focus {
+    background: #fff;
+    color: $primary1;
+    text-decoration: none;
+  }
+
+  &.invert {
+    background: #fff;
+    color: $primary1;
+    border-color: $primary1;
+    &:hover,
+    &:focus {
+      background: $primary1;
+      color: #fff;
+      border-color: $primary1;
+    }
+  }
+  &.gray {
+    background: #fff;
+    color: $primary3;
+    border-color: $primary3;
+    &:hover,
+    &:focus {
+      background: $primary3;
+      color: #fff;
+      border-color: $primary3;
+    }
+  }
+}
+
+@media (min-width: 768px) {
+  .section-button {
+    margin-top: 30px;
+  }
+}
