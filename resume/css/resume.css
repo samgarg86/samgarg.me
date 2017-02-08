@@ -1,0 +1,338 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-weight: inherit;
+  font-style: inherit;
+  font-size: 100%;
+  font-family: inherit;
+  vertical-align: baseline; }
+
+html {
+  font-size: 100.01%; }
+
+div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, pre, a, abbr, acronym, address, code, del, dfn, em, img, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, caption, tbody, tfoot, thead, tr {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-weight: inherit;
+  font-style: inherit;
+  font-size: 100%;
+  font-family: inherit;
+  vertical-align: baseline; }
+
+blockquote, q {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-weight: inherit;
+  font-style: inherit;
+  font-size: 100%;
+  font-family: inherit;
+  vertical-align: baseline;
+  quotes: "" ""; }
+
+blockquote:before, blockquote:after {
+  content: ""; }
+
+q:before, q:after {
+  content: ""; }
+
+th, td, caption {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-weight: inherit;
+  font-style: inherit;
+  font-size: 100%;
+  font-family: inherit;
+  vertical-align: baseline;
+  text-align: left;
+  font-weight: normal;
+  vertical-align: middle; }
+
+table {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-weight: inherit;
+  font-style: inherit;
+  font-size: 100%;
+  font-family: inherit;
+  vertical-align: baseline;
+  border-collapse: separate;
+  border-spacing: 0;
+  vertical-align: middle; }
+
+a img {
+  border: none; }
+
+body {
+  font-family: Georgia;
+  font-size: 15px; }
+
+a {
+  color: #006699; }
+
+#resume {
+  font-size: 18px;
+  max-width: 780px;
+  padding: 60px;
+  margin: 0 auto;
+  box-shadow: #dddddd 1px 1px 10px 6px;
+  font-family: Lato, Georgia, 'Times New Roman', Times, serif;
+  background-color: #fefefe;
+  line-height: 1.4;
+  position: relative; }
+  #resume .picture.empty-section {
+    margin: 0 !important; }
+  #resume .empty-section {
+    padding: 5px 0;
+    border: 1px dashed #cccccc !important;
+    margin: 10px 0 !important; }
+    #resume .empty-section h2 {
+      opacity: 0.3; }
+  #resume .empty-section-contents {
+    height: 25px;
+    padding: 0 5px !important; }
+  #resume .empty-blurb {
+    float: left;
+    margin-right: 10px;
+    opacity: 0.3; }
+  #resume .why {
+    float: left;
+    height: 16px;
+    width: 16px;
+    background: url("/images/../images/icons.png?1344924637") 0 -258px transparent no-repeat;
+    margin-top: 3px; }
+  #resume .date-separator {
+    padding: 0 3px; }
+  #resume .picture {
+    width: 80px;
+    height: 80px; }
+  #resume .patent-office {
+    text-transform: uppercase; }
+  #resume .dot-separator {
+    padding: 0 8px; }
+  #resume .content .hidden-section, #resume .content .hidden-subsection {
+    padding-top: 5px;
+    padding-bottom: 5px; }
+  #resume .content .hidden-section .empty-blurb, #resume .content .hidden-subsection .empty-blurb {
+    font-size: 12px;
+    float: none;
+    display: inline; }
+  #resume .content .hidden-section .why, #resume .content .hidden-subsection .why {
+    background: url("/images/../images/icons.png?1344924637") 0 -251px transparent no-repeat;
+    float: none;
+    display: inline;
+    padding: 8px; }
+  #resume .content li.hidden-section, #resume .content li.hidden-subsection {
+    padding-top: 0;
+    padding-bottom: 0; }
+  #resume .picture {
+    float: right;
+    position: relative;
+    top: 70px; }
+    #resume .picture img {
+      padding: 10px;
+      background-color: #ffffff;
+      border: 1px solid #cccccc; }
+  #resume .headline {
+    display: none; }
+  #resume .position .company-name, #resume .education .school-name, #resume .certification .certification-name, #resume .patent .patent-title, #resume .publication .publication-title {
+    width: 500px;
+    font-size: 20px;
+    position: relative;
+    font-weight: bold;
+    float: left; }
+  #resume .position .job-summary {
+    clear: both;
+    padding-top: 5px;
+    font-size: 0.8em; }
+  #resume .education .notes, #resume .education .activities {
+    clear: both;
+    padding-top: 5px; }
+  #resume .patent .patent-summary, #resume .publication .publication-summary {
+    clear: both;
+    padding-top: 5px; }
+  #resume .position .title, #resume .education .program, #resume .certification .certificate-details, #resume .patent .patent-details, #resume .publication .publication-details {
+    font-size: 19px;
+    color: #999;
+    font-weight: normal;
+    clear: both; }
+  #resume .position .dates, #resume .education .dates, #resume .certification .dates, #resume .patent .dates, #resume .publication .dates {
+    width: 233.2px;
+    text-align: right;
+    float: right; }
+  #resume .position, #resume .education, #resume .certification, #resume .patent, #resume .publication {
+    margin: 0 0 20px;
+    line-height: 1.5; }
+  #resume .patent .patent-details, #resume .publication .publication-details, #resume .certification .certificate-details {
+    font-size: 14px; }
+  #resume p {
+    margin: 0 0 16px 0; }
+  #resume a {
+    color: black;
+    text-decoration: none; }
+    #resume a:hover {
+      opacity: 0.7; }
+  #resume ul {
+    margin: 0;
+    padding-left: 15px; }
+  #resume .summary > header,
+  #resume .specialties > header,
+  #resume .skills > header,
+  #resume .brands > header,
+  #resume .positions > header,
+  #resume .educations > header,
+  #resume .honors > header,
+  #resume .interests > header,
+  #resume .associations > header,
+  #resume .certifications > header,
+  #resume .languages > header,
+  #resume .patents > header,
+  #resume .publications > header,
+  #resume .error-section > header {
+    font-weight: bold;
+    font-size: 25px;
+    padding: 0 26px 0 0;
+    margin-bottom: 20px;
+    color: #999; }
+  #resume .summary .content,
+  #resume .specialties .content,
+  #resume .skills .content,
+  #resume .positions .content,
+  #resume .educations .content,
+  #resume .honors .content,
+  #resume .interests .content,
+  #resume .associations .content,
+  #resume .certifications .content,
+  #resume .languages .content,
+  #resume .patents .content,
+  #resume .publications .content,
+  #resume .error-section .content {
+    padding-left: 20px;
+    padding-bottom: 10px; }
+  #resume .summary, #resume .specialties, #resume .skills, #resume .positions, #resume .educations, #resume .honors, #resume .interests, #resume .associations, #resume .certifications, #resume .languages, #resume .patents, #resume .publications, #resume .error-section {
+    clear: both;
+    overflow: visible;
+    width: 100%; }
+  #resume .footer {
+    height: 20px;
+    clear: both; }
+  #resume .skills, #resume .languages {
+    width: 100%;
+    overflow: auto;
+    margin-bottom: 40px; }
+  #resume .skills .skill-attributes, #resume .skills .language-attributes {
+    display: none; }
+  #resume .languages .skill-attributes, #resume .languages .language-attributes {
+    display: none; }
+  #resume .skills li, #resume .languages li {
+    float: left;
+    width: 215px;
+    padding-right: 10px;
+    word-wrap: break-word; }
+  #resume .skills li .skill-name, #resume .languages li .skill-name {
+    font-size: 16px; }
+  #resume .skills li .left-paren, #resume .skills li .right-paren, #resume .skills li .proficiency, #resume .skills li .comma, #resume .skills li .years {
+    font-size: 10px;
+    color: #555555; }
+  #resume .languages li .left-paren, #resume .languages li .right-paren, #resume .languages li .proficiency, #resume .languages li .comma, #resume .languages li .years {
+    font-size: 10px;
+    color: #555555; }
+  #resume .skills li .comma, #resume .languages li .comma {
+    margin-left: -2px; }
+  #resume .skills li .left-paren, #resume .languages li .left-paren {
+    margin-right: -2px; }
+  #resume .skills li .right-paren, #resume .languages li .right-paren {
+    margin-left: -2px; }
+
+@media all {
+  .page-break {
+    display: none; } }
+
+@media print {
+  #resume {
+    box-shadow: none;
+    margin: 0;
+    width: 1024px;
+    padding: 0;
+    font-size: 16px; }
+  #menu {
+    height: 0 !important;
+    display: none !important; }
+  .page-break {
+    display: block;
+    page-break-before: always; } }
+
+.skills .skill-name {
+  background: #e8e8e8;
+  color: #4c4b4b;
+  padding: 2px 10px;
+  border-radius: 5px;
+  font-size: 18px;
+  margin: 2px 0;
+  display: inline-block; }
+
+.brands {
+  padding-bottom: 20px;
+  margin-top: 40px; }
+
+.brand-logos .brand-logos-row {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between; }
+
+.company-logo {
+  background: transparent;
+  margin-top: 5px;
+  transition: opacity 0.4s;
+  height: 18px;
+  opacity: 0.8; }
+  .company-logo.big {
+    height: 22px; }
+  .company-logo.huge {
+    height: 32px; }
+
+.company-header.first {
+  margin-top: 0; }
+
+#resume .summary {
+  margin: 20px 0 40px;
+  text-align: justify; }
+  #resume .summary header {
+    display: none; }
+  #resume .summary .content {
+    color: #252525;
+    padding: 0;
+    width: 100%;
+    float: none; }
+
+#resume > header {
+  display: flex;
+  justify-content: space-between;
+  align-content: flex-start;
+  border-bottom: 1px solid #999; }
+
+.name {
+  margin: 0 0 16px 0;
+  line-height: 42px;
+  font-size: 42px;
+  font-weight: bold;
+  height: 40px; }
+  .name span {
+    margin-right: 10px; }
+
+#resume .contact {
+  text-align: right; }
+  #resume .contact a {
+    color: #999;
+    text-decoration: none;
+    border-bottom: 1px dotted #999; }
+    #resume .contact a:hover {
+      border-bottom-style: solid;
+      color: black; }
+  #resume .contact header, #resume .contact .label {
+    display: none; }

@@ -1,0 +1,234 @@
+#resume {
+  font-size: 18px;
+  max-width: 780px;
+  padding: 60px;
+  margin: 0 auto;
+  box-shadow: #dddddd 1px 1px 10px 6px;
+  font-family: Lato, Georgia, 'Times New Roman', Times, serif;
+  background-color: #fefefe;
+  line-height: 1.4;
+  position: relative;
+
+  .picture.empty-section {
+    margin: 0 !important;
+  }
+  .empty-section {
+    padding: 5px 0;
+    border: 1px dashed #cccccc !important;
+    margin: 10px 0 !important;
+    h2 {
+      opacity: 0.3;
+    }
+  }
+  .empty-section-contents {
+    height: 25px;
+    padding: 0 5px !important;
+  }
+  .empty-blurb {
+    float: left;
+    margin-right: 10px;
+    opacity: 0.3;
+  }
+  .why {
+    float: left;
+    height: 16px;
+    width: 16px;
+    background: url('/images/../images/icons.png?1344924637') 0 -258px transparent no-repeat;
+    margin-top: 3px;
+  }
+  .date-separator {
+    padding: 0 3px;
+  }
+  .picture {
+    width: 80px;
+    height: 80px;
+  }
+  .patent-office {
+    text-transform: uppercase;
+  }
+  .dot-separator {
+    padding: 0 8px;
+  }
+  .content {
+    .hidden-section, .hidden-subsection {
+      padding-top: 5px;
+      padding-bottom: 5px;
+    }
+    .hidden-section .empty-blurb, .hidden-subsection .empty-blurb {
+      font-size: 12px;
+      float: none;
+      display: inline;
+    }
+    .hidden-section .why, .hidden-subsection .why {
+      background: url('/images/../images/icons.png?1344924637') 0 -251px transparent no-repeat;
+      float: none;
+      display: inline;
+      padding: 8px;
+    }
+    li {
+      &.hidden-section, &.hidden-subsection {
+        padding-top: 0;
+        padding-bottom: 0;
+      }
+    }
+  }
+  .picture {
+    float: right;
+    position: relative;
+    top: 70px;
+    img {
+      padding: 10px;
+      background-color: #ffffff;
+      border: 1px solid #cccccc;
+    }
+  }
+  .headline {
+    display: none;
+  }
+  .position .company-name, .education .school-name, .certification .certification-name, .patent .patent-title, .publication .publication-title {
+    width: 500px;
+    font-size: 20px;
+    position: relative;
+    font-weight: bold;
+    float: left;
+  }
+  .position .job-summary {
+    clear: both;
+    padding-top: 5px;
+    font-size: 0.8em;
+  }
+  .education {
+    .notes, .activities {
+      clear: both;
+      padding-top: 5px;
+    }
+  }
+  .patent .patent-summary, .publication .publication-summary {
+    clear: both;
+    padding-top: 5px;
+  }
+  .position .title, .education .program, .certification .certificate-details, .patent .patent-details, .publication .publication-details {
+    font-size: 19px;
+    color: #999;
+    font-weight: normal;
+    clear: both;
+  }
+  .position .dates, .education .dates, .certification .dates, .patent .dates, .publication .dates {
+    width: 233.2px;
+    text-align: right;
+    float: right;
+  }
+  .position, .education, .certification, .patent, .publication {
+    margin: 0 0 20px;
+    line-height: 1.5;
+  }
+  .patent .patent-details, .publication .publication-details, .certification .certificate-details {
+    font-size: 14px;
+  }
+  p {
+    margin: 0 0 16px 0;
+  }
+  a {
+    color: black;
+    text-decoration: none;
+    &:hover {
+      opacity: 0.7;
+    }
+  }
+
+  ul {
+    margin: 0;
+    padding-left: 15px;
+  }
+
+  .summary > header,
+  .specialties > header,
+  .skills > header,
+  .brands > header,
+  .positions > header,
+  .educations > header,
+  .honors > header,
+  .interests > header,
+  .associations > header,
+  .certifications > header,
+  .languages > header,
+  .patents > header,
+  .publications > header,
+  .error-section > header {
+    font-weight: bold;
+    font-size: 25px;
+    padding: 0 26px 0 0;
+    margin-bottom: 20px;
+    color: #999;
+  }
+  .summary .content,
+  .specialties .content,
+  .skills .content,
+  .positions .content,
+  .educations .content,
+  .honors .content,
+  .interests .content,
+  .associations .content,
+  .certifications .content,
+  .languages .content,
+  .patents .content,
+  .publications .content,
+  .error-section .content {
+    padding-left: 20px;
+    padding-bottom: 10px;
+  }
+  .summary, .specialties, .skills, .positions, .educations, .honors, .interests, .associations, .certifications, .languages, .patents, .publications, .error-section {
+    clear: both;
+    overflow: visible;
+    width: 100%;
+  }
+  .footer {
+    height: 20px;
+    clear: both;
+  }
+  .skills, .languages {
+    width: 100%;
+    overflow: auto;
+    margin-bottom: 40px;
+  }
+  .skills {
+    .skill-attributes, .language-attributes {
+      display: none;
+    }
+  }
+  .languages {
+    .skill-attributes, .language-attributes {
+      display: none;
+    }
+  }
+  .skills li, .languages li {
+    float: left;
+    width: 215px;
+    padding-right: 10px;
+    word-wrap: break-word;
+  }
+  .skills li .skill-name, .languages li .skill-name {
+    font-size: 16px;
+  }
+  .skills li {
+    .left-paren, .right-paren, .proficiency, .comma, .years {
+      font-size: 10px;
+      color: #555555;
+    }
+  }
+  .languages li {
+    .left-paren, .right-paren, .proficiency, .comma, .years {
+      font-size: 10px;
+      color: #555555;
+    }
+  }
+  .skills li .comma, .languages li .comma {
+    margin-left: -2px;
+  }
+  .skills li .left-paren, .languages li .left-paren {
+    margin-right: -2px;
+  }
+  .skills li .right-paren, .languages li .right-paren {
+    margin-left: -2px;
+  }
+}

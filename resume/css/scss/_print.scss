@@ -1,0 +1,27 @@
+@media all {
+  .page-break {
+    display: none;
+  }
+}
+
+@media print {
+  #resume {
+    box-shadow: none;
+    margin: 0;
+    width: 1024px;
+    padding: 0;
+    font-size: 16px;
+
+    //.company-logo {
+    //  max-height: 25px;
+    //}
+  }
+  #menu {
+    height: 0 !important;
+    display: none !important;
+  }
+  .page-break {
+    display: block;
+    page-break-before: always;
+  }
+}

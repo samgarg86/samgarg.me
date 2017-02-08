@@ -1,0 +1,36 @@
+
+.brands {
+  padding-bottom: 20px;
+  margin-top: 40px;
+}
+
+.brand-logos {
+  //background: #e8e8e8;
+  //padding: 5px 15px 10px;
+
+  .brand-logos-row {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+  }
+}
+
+.company-logo {
+  background: transparent;
+  margin-top: 5px;
+  transition: opacity 0.4s;
+  height: 18px;
+  opacity: 0.8;
+
+  &.big {
+    height: 22px;
+  }
+  &.huge {
+    height: 32px;
+  }
+}
+
+.company-header.first {
+  margin-top: 0;
+}
